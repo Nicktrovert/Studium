@@ -171,19 +171,9 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "cc0bf56e1ee85a02",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -202,7 +192,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "9a411497d0f9bc33",
+  "active": "cbbbf9e35b0cd960",
   "lastOpenFiles": [
     "Studium.md",
     "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",

@@ -1,0 +1,9 @@
+{
+  "remoteURL": "https://github.com/Nicktrovert/Studium.git",
+  "gitLocation": "",
+  "syncinterval": 0,
+  "isSyncOnLoad": false,
+  "checkStatusOnLoad": true,
+  "noticeLevel": "ALL",
+  "showSyncSuccessNotice": true
+}
