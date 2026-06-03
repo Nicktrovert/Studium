@@ -110,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Grundlagen"
+              "title": "Backlinks"
             }
           },
           {
@@ -129,12 +128,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Grundlagen"
+              "title": "Outgoing links"
             }
           },
           {
@@ -172,13 +170,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Grundlagen"
+              "title": "Outline"
             }
           },
           {
@@ -211,7 +208,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "668ab12ea1001171",
+  "active": "1b66b3ae943fc690",
   "lastOpenFiles": [
     "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
     "2. Semester/Mathematik 2/Vektoren",
