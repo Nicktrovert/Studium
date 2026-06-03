@@ -11,30 +11,24 @@
             "id": "9a411497d0f9bc33",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Grundlagen"
-            }
-          }
-        ]
-      },
-      {
-        "id": "d5d936967ca5e62e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1b66b3ae943fc690",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
+            }
+          },
+          {
+            "id": "a533115829909434",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Studium.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Studium"
             }
           }
         ]
@@ -208,9 +202,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "1b66b3ae943fc690",
+  "active": "9a411497d0f9bc33",
   "lastOpenFiles": [
+    "Studium.md",
     "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
+    "2. Semester/Mathematik 2/Vektoren/Vektoren.md",
+    "2. Semester/Mathematik 2/Mathematik 2.md",
+    "2. Semester/2. Semester.md",
     "2. Semester/Mathematik 2/Vektoren",
     "2. Semester/Mathematik 2",
     "2. Semester",
