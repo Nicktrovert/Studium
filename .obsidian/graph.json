@@ -6,17 +6,67 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"2. Semester/BWL\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14736466
+      }
+    },
+    {
+      "query": "path:\"2. Semester/Programmieren 2\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701228
+      }
+    },
+    {
+      "query": "path:\"2. Semester/Rechnernetze\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:\"2. Semester/C-Cpp\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"2. Semester/Mathematik 2\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7242471
+      }
+    },
+    {
+      "query": "path:\"2. Semester\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701276
+      }
+    },
+    {
+      "query": "path:\"1. Semester\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 0.7890625,
+  "lineSizeMultiplier": 1.83541666666667,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.270833333333333,
+  "repelStrength": 15.5208333333333,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
+  "linkDistance": 294,
+  "scale": 0.6666666666666664,
   "close": true
 }
