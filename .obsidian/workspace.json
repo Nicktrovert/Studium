@@ -11,10 +11,14 @@
             "id": "a533115829909434",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "2. Semester/C-Cpp/Inhaltszusammenfassung.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inhaltszusammenfassung"
             }
           }
         ]
@@ -183,17 +187,17 @@
   },
   "active": "a533115829909434",
   "lastOpenFiles": [
+    "2. Semester/C-Cpp/Probeklausur.md",
+    "2. Semester/C-Cpp/C-Cpp.md",
+    "2. Semester/C-Cpp/Inhaltszusammenfassung.md",
+    "2. Semester/C-Cpp/Probeprüfung - Durchführung.md",
+    "2. Semester/Programmieren 2/Klausur/Klausur.md",
     "2. Semester/2. Semester.md",
     "2. Semester/Programmieren 2/Vorlesung/Lambda-Ausdrücke und Streams.md",
-    "2. Semester/C-Cpp/C-Cpp.md",
     "Studium.md",
-    "2. Semester/C-Cpp/Probeprüfung - Durchführung.md",
-    "2. Semester/C-Cpp/Inhaltszusammenfassung.md",
-    "2. Semester/C-Cpp/Probeklausur.md",
     "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
     "2. Semester/Programmieren 2/Programmieren 2.md",
     "2. Semester/Programmieren 2/Vorlesung/Vorlesung.md",
-    "2. Semester/Programmieren 2/Klausur/Klausur.md",
     "2. Semester/Programmieren 2/Vorlesung",
     "2. Semester/Programmieren 2/Klausur",
     "2. Semester/Mathematik 2/Vektoren/Pasted image 20260604001232.png",
