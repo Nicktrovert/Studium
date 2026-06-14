@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Semester/C-Cpp/Inhaltszusammenfassung.md",
-                "mode": "preview",
+                "file": "2. Semester/C-Cpp/Endgegnerprüfung.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inhaltszusammenfassung"
+              "title": "Endgegnerprüfung"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
+                "file": "2. Semester/Mathematik 2/Prüfungsvorbereitung/Prüfungsvorbereitung.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Grundlagen"
+              "title": "Outline of Prüfungsvorbereitung"
             }
           }
         ],
@@ -187,17 +187,29 @@
   },
   "active": "a533115829909434",
   "lastOpenFiles": [
-    "2. Semester/C-Cpp/Probeklausur.md",
+    "2. Semester/C-Cpp/Bitverschiebungen.md",
+    "2. Semester/C-Cpp/Endgegnerprüfung.md",
     "2. Semester/C-Cpp/C-Cpp.md",
     "2. Semester/C-Cpp/Inhaltszusammenfassung.md",
     "2. Semester/C-Cpp/Probeprüfung - Durchführung.md",
+    "2. Semester/C-Cpp/Üben.md",
+    "2. Semester/C-Cpp/Üben 2.md",
+    "2. Semester/C-Cpp/Probeklausur.md",
+    "2. Semester/Mathematik 2/Prüfungsvorbereitung/Prüfungsvorbereitung.md",
+    "Untitled.canvas",
+    "2. Semester/Mathematik 2/Mathematik 2.md",
+    "2. Semester/Rechnernetze/Rechnernetze.md",
+    "Untitled.base",
+    "Untitled.md",
+    "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
+    "2. Semester/Mathematik 2/Prüfungsvorbereitung",
+    "2. Semester/Programmieren 2/Vorlesung/Vordefinierte funktionale Interfaces und Anwendungen auf Datenstrukturen.md",
+    "2. Semester/Programmieren 2/Vorlesung/Vorlesung.md",
+    "2. Semester/Programmieren 2/Vorlesung/Lambda-Ausdrücke und Streams.md",
     "2. Semester/Programmieren 2/Klausur/Klausur.md",
     "2. Semester/2. Semester.md",
-    "2. Semester/Programmieren 2/Vorlesung/Lambda-Ausdrücke und Streams.md",
     "Studium.md",
-    "2. Semester/Mathematik 2/Vektoren/Grundlagen.md",
     "2. Semester/Programmieren 2/Programmieren 2.md",
-    "2. Semester/Programmieren 2/Vorlesung/Vorlesung.md",
     "2. Semester/Programmieren 2/Vorlesung",
     "2. Semester/Programmieren 2/Klausur",
     "2. Semester/Mathematik 2/Vektoren/Pasted image 20260604001232.png",
@@ -210,14 +222,10 @@
     "2. Semester/BWL",
     "2. Semester/Programmieren 2",
     "2. Semester/C-Cpp",
-    "2. Semester/Rechnernetze/Rechnernetze.md",
     "2. Semester/Rechnernetze",
     "1. Semester/1. Semester.md",
     "1. Semester",
-    "2. Semester/Mathematik 2/Mathematik 2.md",
     "2. Semester/Mathematik 2/Vektoren",
-    "2. Semester/Mathematik 2",
-    "2. Semester",
     "Welcome.md"
   ]
 }
