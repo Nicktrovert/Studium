@@ -315,7 +315,7 @@ struct Number{
 
 Welche Funktionen fehlen, damit sich der Typ wie ein regulärer Werttyp verhält?
 
-> Zuweisungs operator, Copy Constructor, Destructor, Additions/Mul/Div/Sub Operator
+> Zuweisungs operator, Copy Constructor, Destructor
 
 Nenne:
 
@@ -398,6 +398,12 @@ int main(){
 ```
 > ABba
 
+Konstruktor:
+Base Member -> Base Klasse -> Derived Member -> Derived Klasse
+Destruktor:
+`Inverse`
+Derived Klasse -> Derived Member -> Base Klasse -> Base Member
+
 ---
 
 ## F3 (5P)
@@ -467,9 +473,9 @@ Welche Konsequenz hat das?
 Was passiert hier?
 
 ```cpp
-Car* c = new Car();
+Car* c = new Car(); // es wird ein Objekt von Car erstellt
 
-Vehicle* v = c;
+Vehicle* v = c; // Es wird ein Objekt von Vehicle erstellt und das Objekt der Child klasse Car wird diesem Objekt zugewiesen
 ```
 
 Warum ist das erlaubt?
@@ -563,7 +569,7 @@ a12 // nicht gültig
 Erkläre die Bedeutung von:
 
 ```text
-[] // Liste
+[] // optional (0 oder 1 mal)
 () // Subregel für anwendung von */+
 * // 0 oder mehr von vorstehendem Element
 + // 1 oder mehr von vorstehendem Element
@@ -583,13 +589,13 @@ Was wird ausgegeben?
 
 ```cpp
 struct A{
-    A(){std::cout<<"A";}
-    A(const A&){
+    A(){std::cout<<"A";} // Constructor
+    A(const A&){ // Copy Constructor
         std::cout<<"C";
     }
 };
 
-void foo(A a){
+void foo(A a){ // Parameterübergabe = Copy (Außer Ref &)
 }
 
 int main(){

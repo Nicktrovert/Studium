@@ -1,3 +1,2 @@
-[[Inhaltszusammenfassung]]
-[[Probeklausur]]
-[[Probeprüfung - Durchführung]]
+[[2. Semester/C-Cpp/Prüfungsvorbereitung/Prüfungsvorbereitung|Prüfungsvorbereitung]]
+
