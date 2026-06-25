@@ -1108,20 +1108,10 @@ gilt
 
 Falls
 
-[  
-ggT(a,m)=1  
-]
+### $ggT(a,m)=1$
 
 gilt
-
-[  
-\boxed{  
-a^{\varphi(m)}  
-\equiv  
-1  
-\pmod m  
-}  
-]
+### $\boxed{a^{\varphi(m)}\equiv1\pmod m}$
 
 ---
 
@@ -1132,42 +1122,24 @@ Große Potenzen berechnen.
 ---
 
 Beispiel
-
-[  
-3^{100}\mod7  
-]
+### $3^{100}\mod7$
 
 Da
-
-[  
-\varphi(7)=6  
-]
+### $\varphi(7)=6$
 
 und
-
-[  
-100=16\cdot6+4  
-]
+### $100=16\cdot6+4$
 
 folgt
 
-# [  
-3^{100}
+### $3^{100} = (3^6)^{16}\cdot3^4$
 
-(3^6)^{16}\cdot3^4  
-]
-
-[  
-3^6\equiv1  
-]
+### $3^6\equiv1$
 
 ↓
 
 nur noch
-
-[  
-3^4  
-]
+### $3^4$
 
 berechnen.
 
@@ -1178,18 +1150,9 @@ berechnen.
 Aufgabe
 
 Gegeben
-
-[  
-x\equiv1\mod3  
-]
-
-[  
-x\equiv2\mod5  
-]
-
-[  
-x\equiv4\mod7  
-]
+### $x\equiv1\mod3$
+### $x\equiv2\mod5$
+### $x\equiv4\mod7$
 
 ---
 
@@ -1204,9 +1167,7 @@ Alle Moduli müssen paarweise teilerfremd sein.
 Ihr müsst vor allem
 
 - Schema anwenden
-    
 - sauber rechnen
-    
 
 Die Wiederholung enthält den vollständigen Algorithmus.
 
@@ -1218,29 +1179,16 @@ Eine ISBN besitzt
 
 10 Stellen.
 
-Die letzte Stelle
-
-=
-
-Prüfziffer.
+Die letzte Stelle = Prüfziffer.
 
 ---
 
 ## Regel
 
-[  
-10a_1  
-+  
-9a_2  
-+  
-...  
-+  
-a_{10}  
-]
+### $10a_1+9a_2+...+a_{10}$
 
 muss durch
-
-11
+### $11$
 
 teilbar sein.
 
@@ -1251,16 +1199,12 @@ teilbar sein.
 Laut Fragestunde wahrscheinlich nur:
 
 - Prüfziffer berechnen
-    
 - fehlende Ziffer bestimmen
-    
 
 Nicht:
 
 - Tippfehler erkennen
-    
 - Vertauschungen untersuchen
-    
 
 ---
 
@@ -1273,10 +1217,7 @@ RSA besteht immer aus denselben Schritten.
 ## Schritt 1
 
 Gegeben
-
-[  
-p,q  
-]
+### $p,q$
 
 ---
 
@@ -1284,9 +1225,7 @@ p,q
 
 Berechne
 
-[  
-n=pq  
-]
+### $n=pq$
 
 ---
 
@@ -1294,69 +1233,44 @@ n=pq
 
 Berechne
 
-# [  
-\varphi(n)
-
-(p-1)(q-1)  
-]
+### $\varphi(n)=(p-1)(q-1)$
 
 ---
 
 ## Schritt 4
 
 Gegeben
-
-[  
-e  
-]
+### $e$
 
 mit
-
-[  
-ggT(e,\varphi(n))=1  
-]
+### $ggT(e,\varphi(n))=1$
 
 ---
 
 ## Schritt 5
 
 Berechne
-
-[  
-d=e^{-1}\mod\varphi(n)  
-]
+### $d=e^{-1}\mod\varphi(n)$
 
 ---
 
 ## Öffentlicher Schlüssel
-
-[  
-(n,e)  
-]
+### $(n,e)$
 
 ---
 
 ## Privater Schlüssel
-
-[  
-d  
-]
+### $d$
 
 ---
 
 ## Verschlüsselung
-
-[  
-c=m^e\mod n  
-]
+### $c=m^e\mod n$
 
 ---
 
 ## Entschlüsselung
-
-[  
-m=c^d\mod n  
-]
+### $m=c^d\mod n$
 
 ---
 
@@ -1371,26 +1285,17 @@ m=c^d\mod n
 Nein.
 
 Nur wenn
-
-[  
-ggT(a,m)=1  
-]
+### $ggT(a,m)=1$
 
 ---
 
 ### ❌ φ falsch berechnet
 
 Nicht
-
-[  
-pq-1  
-]
+### $pq-1$
 
 sondern
-
-[  
-(p-1)(q-1)  
-]
+### $(p-1)(q-1)$
 
 ---
 
@@ -1427,89 +1332,36 @@ Euklidischer Algorithmus
 ---
 
 ### Bézout
-
-[  
-ax+by=ggT(a,b)  
-]
+### $ax+by=ggT(a,b)$
 
 ---
 
 ### Inverse
 
 Existiert genau dann, wenn
-
-[  
-ggT(a,m)=1  
-]
+### $ggT(a,m)=1$
 
 ---
 
 ### Euler-φ
-
-[  
-\varphi(p)=p-1  
-]
-
-[  
-\varphi(pq)=(p-1)(q-1)  
-]
+### $\varphi(p)=p-1$
+### $\varphi(pq)=(p-1)(q-1)$
 
 ---
 
 ### Euler
 
-[  
-a^{\varphi(m)}  
-\equiv1  
-\pmod m  
-]
+### $a^{\varphi(m)} \equiv1  \pmod m$
 
 ---
 
 ### RSA
 
-[  
-n=pq  
-]
-
-[  
-\varphi=(p-1)(q-1)  
-]
-
-[  
-d=e^{-1}  
-]
-
-[  
-c=m^e\mod n  
-]
-
-[  
-m=c^d\mod n  
-]
-
----
-
-## Prüfungsstrategie
-
-Wenn du diesen Themenblock lernst, solltest du besonders folgende Aufgabentypen sicher beherrschen:
-
-1. **Erweiterten Euklid** (kurze Rechnungen)
-    
-2. **Multiplikative Inverse**
-    
-3. **ISBN-Prüfziffer**
-    
-4. **RSA Schritt für Schritt**
-    
-5. **Lineare Kongruenzen**
-    
-6. **Chinesischen Restsatz**
-    
-7. **Große Potenzen modulo** mithilfe von Euler
-    
-
-Diese Themen decken nahezu den gesamten Bereich der Probeklausur und der Wiederholung ab.
+### $n=pq$
+### $\varphi=(p-1)(q-1)$
+### $d=e^{-1}$
+### $c=m^e\mod n$
+### $m=c^d\mod n$
 
 ---
 # Teil 3 – Graphentheorie
@@ -1525,11 +1377,14 @@ Die Graphentheorie macht einen großen Teil der Klausur aus. In der Probeklausur
 Ein Graph besteht aus:
 
 - **Knoten (Vertices)**
-    
 - **Kanten (Edges)**
-    
 
 Beispiel:
+
+```mermaid
+flowchart LR
+A((A)) <--> B((B)) <--> D((D)) <--> C((C)) <--> A
+```
 
 ```
 A ----- B
@@ -1541,26 +1396,19 @@ C ----- D
 Hier gilt:
 
 - Knoten = A, B, C, D
-    
 - Kanten = Verbindungen
-    
 
 ---
 
 ## Schreibweise
 
 Ein Graph wird meist geschrieben als
-
-[  
-G=(V,E)  
-]
+### $G=(V,E)$
 
 mit
 
 - (V) = Knotenmenge
-    
 - (E) = Kantenmenge
-    
 
 ---
 
@@ -1570,6 +1418,11 @@ Der **Grad** ist die Anzahl der Kanten, die an einem Knoten liegen.
 
 Beispiel
 
+```mermaid
+flowchart TD
+A((A)) <--> B((B)) <--> C((C)) <--> A
+```
+
 ```
 A ----- B
  \     /
@@ -1577,11 +1430,9 @@ A ----- B
     C
 ```
 
-Grad(A)=2
-
-Grad(B)=2
-
-Grad(C)=2
+$Grad(A)=2$
+$Grad(B)=2$
+$Grad(C)=2$
 
 ---
 
@@ -1596,11 +1447,10 @@ Merke:
 Zwei Knoten heißen **adjazent**, wenn sie direkt verbunden sind.
 
 Beispiel
-
+```mermaid
+flowchart LR
+A((A)) <--> B((B))
 ```
-A ----- B
-```
-
 A und B sind adjazent.
 
 ---
@@ -1649,22 +1499,10 @@ D   0 1 1 0
 
 Folge von Knoten.
 
+```mermaid
+flowchart LR
+A((A)) --> B((B)) --> C((C)) --> D((D))
 ```
-A
-
-↓
-
-B
-
-↓
-
-C
-
-↓
-
-D
-```
-
 ---
 
 ## Einfacher Weg
@@ -1676,23 +1514,10 @@ Kein Knoten wird doppelt besucht.
 ## Kreis
 
 Start = Ende.
-
+```mermaid
+flowchart LR
+A((A)) -- Start --> B((B)) --> C((C)) -- Ende --> A
 ```
-A
-
-↓
-
-B
-
-↓
-
-C
-
-↓
-
-A
-```
-
 ---
 
 # 7. Zusammenhang
@@ -1703,12 +1528,11 @@ Ein Graph heißt **zusammenhängend**, wenn jeder Knoten von jedem anderen errei
 
 Nicht zusammenhängend:
 
+```mermaid
+flowchart LR
+A((A)) --> B((B))
+C((C)) --> D((D))
 ```
-A ----- B
-
-C ----- D
-```
-
 Es existieren zwei Zusammenhangskomponenten.
 
 ---
@@ -1823,11 +1647,8 @@ nur anders beschriftet wurden.
 Prüfen:
 
 - gleiche Knotenzahl
-    
 - gleiche Kantenzahl
-    
 - gleiche Gradfolge
-    
 
 Erst dann lohnt sich eine genauere Zuordnung.
 
@@ -1840,9 +1661,7 @@ Definition
 Ein Baum ist
 
 - zusammenhängend
-    
 - kreisfrei
-    
 
 ---
 
@@ -1850,17 +1669,13 @@ Eigenschaft
 
 Hat ein Baum
 
-[  
-n  
-]
+### $n$
 
 Knoten,
 
 dann besitzt er
 
-[  
-n-1  
-]
+### $n-1$
 
 Kanten.
 
@@ -1868,6 +1683,12 @@ Kanten.
 
 Beispiel
 
+```mermaid
+flowchart TD
+A((A)) --> B((B))
+A --> C((C))
+B --> D((D))
+```
 ```
       A
 
@@ -1881,7 +1702,6 @@ Beispiel
 ```
 
 4 Knoten
-
 3 Kanten
 
 ---
@@ -1891,9 +1711,7 @@ Beispiel
 Ein Spannbaum
 
 - verbindet alle Knoten
-    
 - enthält keinen Kreis
-    
 
 ---
 
@@ -1913,26 +1731,14 @@ Immer möglichst tief gehen.
 
 Beispiel
 
+```mermaid
+flowchart TD
+A((A)) --> B((B)) --> D((D))
+B --> C((C))
+C --> E((E))
 ```
-A
-
-↓
-
-B
-
-↓
-
-D
-
-↑
-
-↓
-
-C
-
-↓
-
-E
+```
+A ↓ B ↓ D ↑ ↓ C ↓ E
 ```
 
 ---
@@ -1950,15 +1756,10 @@ DFS benutzt einen
 ## Vorgehen
 
 1. Startknoten markieren
-    
 2. ersten unbesuchten Nachbarn besuchen
-    
 3. wiederholen
-    
 4. Sackgasse?
-    
 5. zurückgehen
-    
 
 ---
 
@@ -1975,7 +1776,14 @@ Erst alle Nachbarn,
 dann Nachbarn der Nachbarn.
 
 ---
-
+```mermaid
+flowchart TD
+A((A)) --> B((B))
+A --> C((C))
+B --> D((D))
+B --> E((E))
+C --> F((F))
+```
 ```
 A
 
@@ -2018,69 +1826,45 @@ Breite
 
 # 15. Minimaler Spannbaum
 
-Gesucht
+Gesucht:
 
-Alle Knoten verbinden
-
-mit minimalem Gesamtgewicht.
+Alle Knoten verbinden mit minimalem Gesamtgewicht.
 
 ---
 
 # 16. Prim-Algorithmus
 
-Idee
+Idee:
 
-Man startet
-
-bei einem beliebigen Knoten.
+Man startet bei einem beliebigen Knoten.
 
 Dann:
 
-Immer
-
-**die billigste Kante**
-
-zum nächsten Knoten wählen.
+Immer **die billigste Kante** zum nächsten Knoten wählen.
 
 ---
 
 Merksatz
 
-Prim wächst
-
-**von innen nach außen.**
+Prim wächst **von innen nach außen.**
 
 ---
 
 # 17. Kruskal-Algorithmus
 
-Idee
+Idee:
 
-Alle Kanten
-
-nach Gewicht sortieren.
+Alle Kanten nach Gewicht sortieren.
 
 Dann:
 
-Immer
-
-die billigste nehmen,
-
-wenn dadurch
-
-kein Kreis entsteht.
+Immer die billigste nehmen, wenn dadurch kein Kreis entsteht.
 
 ---
 
 Merksatz
-
-Kruskal denkt
-
-**in Kanten**
-
-Prim denkt
-
-**in Knoten**
+- Kruskal denkt **in Kanten**,
+- Prim denkt **in Knoten**
 
 ---
 
@@ -2096,53 +1880,27 @@ Prim denkt
 
 # 18. Graphfärbung
 
-Ziel
+Ziel:
 
-Möglichst wenige Farben,
-
-damit benachbarte Knoten
-
-verschiedene Farben besitzen.
+Möglichst wenige Farben, damit benachbarte Knoten verschiedene Farben besitzen.
 
 ---
 
 Chromatische Zahl
 
-[  
-\chi(G)  
-]
-
+### $\chi(G)$
 =
-
 kleinste Anzahl benötigter Farben.
 
 ---
 
-In der Probeklausur
-
-muss zusätzlich
-
-der Graph
-
-zur Landkarte gezeichnet werden.
+In der Probeklausur muss zusätzlich der Graph zur Landkarte gezeichnet werden.
 
 ---
 
 # 19. Bipartite Graphen
 
-Ein Graph ist bipartit,
-
-wenn seine Knoten
-
-in zwei Mengen
-
-geteilt werden können,
-
-sodass
-
-innerhalb einer Menge
-
-keine Kanten existieren.
+Ein Graph ist bipartit, wenn seine Knoten in zwei Mengen geteilt werden können, sodass innerhalb einer Menge keine Kanten existieren.
 
 ---
 
@@ -2176,13 +1934,7 @@ Rechts
 
 ## Wichtig
 
-Ein Graph ist genau dann bipartit,
-
-wenn er
-
-**keinen Kreis ungerader Länge**
-
-besitzt.
+Ein Graph ist genau dann bipartit, wenn er **keinen Kreis ungerader Länge** besitzt.
 
 ---
 
@@ -2192,28 +1944,20 @@ Matching
 
 =
 
-Menge von Kanten,
-
-bei denen
-
-kein Knoten doppelt verwendet wird.
+Menge von Kanten, bei denen kein Knoten doppelt verwendet wird.
 
 ---
 
 Beispiel
 
+```mermaid
+flowchart LR
+A((A)) <--> 1((1))
+B((B)) <--> 2((2))
+C((C)) <--> 3((3))
 ```
-A ---- 1
-
-B ---- 2
-
-C ---- 3
-```
-
 Alle Knoten benutzt.
-
 ↓
-
 Vollständiges Matching.
 
 ---
@@ -2227,15 +1971,11 @@ Dieses Thema kommt direkt in der Probeklausur vor.
 ### ❌ Euler und Hamilton vertauschen
 
 Euler
-
 ↓
-
 Kanten
 
 Hamilton
-
 ↓
-
 Knoten
 
 ---
@@ -2243,25 +1983,17 @@ Knoten
 ### ❌ DFS und BFS verwechseln
 
 DFS
-
 ↓
-
 Stack
-
 ↓
-
 Tiefe
 
 ---
 
 BFS
-
 ↓
-
 Queue
-
 ↓
-
 Breite
 
 ---
@@ -2269,42 +2001,27 @@ Breite
 ### ❌ Prim und Kruskal
 
 Prim
-
 ↓
-
 Knoten
 
 ---
 
 Kruskal
-
 ↓
-
 Kanten
 
 ---
 
 ### ❌ Baum
 
-Ein Baum besitzt
-
-immer
-
-[  
-n-1  
-]
-
-Kanten.
+Ein Baum besitzt immer $n-1$ Kanten.
 
 ---
 
 ### ❌ Eulerbedingungen
 
 Nicht raten.
-
-Immer
-
-Grade zählen.
+Immer Grade zählen.
 
 ---
 
@@ -2313,17 +2030,11 @@ Grade zählen.
 ## Euler
 
 1. Grad jedes Knotens bestimmen.
-    
 2. Anzahl der Knoten mit ungeradem Grad zählen.
-    
 3. Mit der Tabelle entscheiden:
-    
     - 0 → Eulerkreis
-        
     - 2 → Eulerweg
-        
     - mehr als 2 → keiner
-        
 
 ---
 
@@ -2336,145 +2047,84 @@ Es gibt keine einfache Formel. Suche einen Weg/Kreis, der **jeden Knoten genau e
 ## DFS
 
 1. Startknoten wählen (oft vorgegeben).
-    
 2. Immer den ersten noch unbesuchten Nachbarn besuchen.
-    
 3. Erst bei einer Sackgasse zurückgehen.
-    
 4. Das entstehende Gerüst einzeichnen oder angeben.
-    
 
 ---
 
 ## Prim
 
 1. Bei einem Startknoten beginnen.
-    
 2. Immer die günstigste Kante zum nächsten **noch nicht besuchten** Knoten wählen.
-    
 3. Keine Kreise erzeugen.
-    
 
 ---
 
 ## Kruskal
 
 1. Alle Kanten nach Gewicht sortieren.
-    
 2. Kleinste Kante wählen.
-    
 3. Nur hinzufügen, wenn kein Kreis entsteht.
-    
 4. Wiederholen, bis alle Knoten verbunden sind.
-    
 
 ---
 
 # 23. Merkkasten (für die Prüfung)
 
 ## Euler
-
 - **Kanten** genau einmal
-    
 - 0 ungerade Grade → Eulerkreis
-    
 - 2 ungerade Grade → Eulerweg
-    
 
 ---
 
 ## Hamilton
-
 - **Knoten** genau einmal
-    
 
 ---
 
 ## Baum
-
-- zusammenhängend
-    
+- zusammenhängend    
 - kreisfrei
-    
 - (n-1) Kanten
-    
 
 ---
 
 ## DFS
-
 - Tiefe
-    
 - Stack
-    
 - Gerüst
-    
 
 ---
 
 ## BFS
-
 - Breite
-    
 - Queue
-    
 
 ---
 
 ## Prim
-
 - Start bei einem Knoten
-    
 - günstigste Nachbarkante
-    
 
 ---
 
 ## Kruskal
-
 - Kanten sortieren
-    
 - günstigste kreisfreie Kante
-    
 
 ---
 
 ## Bipartit
-
 - zwei Knotenmengen
-    
 - **kein ungerader Kreis**
-    
 
 ---
 
 ## Matching
-
 - kein Knoten darf in zwei Matching-Kanten vorkommen
-    
 - vollständiges Matching: alle Knoten einer Seite werden zugeordnet
-    
-
----
-
-## Prüfungsfokus
-
-Basierend auf der Probeklausur und den Wiederholungsunterlagen würde ich für Graphentheorie diese Reihenfolge empfehlen:
-
-1. ⭐⭐⭐⭐⭐ Euler- und Hamiltonwege
-    
-2. ⭐⭐⭐⭐⭐ DFS (Gerüst aus Adjazenzliste)
-    
-3. ⭐⭐⭐⭐⭐ Matching in bipartiten Graphen
-    
-4. ⭐⭐⭐⭐ Graphfärbung
-    
-5. ⭐⭐⭐ Prim und Kruskal
-    
-6. ⭐⭐ Isomorphie und Adjazenzmatrix (Grundlagen)
-    
-
-Wenn du diese Themen sicher beherrschst, solltest du den Graphentheorie-Teil der Klausur sehr gut abdecken.
 
 ---
 # Teil 4 – Analytische Geometrie (2D)
@@ -2491,25 +2141,15 @@ Ein Vektor beschreibt eine **Richtung und Länge**.
 
 Beispiel
 
-[  
-\vec v=  
-\begin{pmatrix}  
-3\  
-4  
-\end{pmatrix}  
-]
+### $\vec v=\begin{pmatrix}3\\4\end{pmatrix}$
 
 ---
 
 ## Darstellung
 
 Ein Vektor besitzt
-
 - Richtung
-    
 - Länge
-    
-
 aber **keinen festen Ort**.
 
 ---
@@ -2517,76 +2157,32 @@ aber **keinen festen Ort**.
 ## Vektor zwischen zwei Punkten
 
 Gegeben
-
-[  
-A(x_1,y_1)  
-]
-
-[  
-B(x_2,y_2)  
-]
+### $A(x_1,y_1)$
+### $B(x_2,y_2)$
 
 Dann gilt
-
-# [  
-\boxed{  
-\overrightarrow{AB}
-
-\begin{pmatrix}  
-x_2-x_1\  
-y_2-y_1  
-\end{pmatrix}  
-}  
-]
+### $\boxed{\overrightarrow{AB} =\begin{pmatrix}x_2-x_1\\y_2-y_1\end{pmatrix}}$  
 
 ---
 
 ## Beispiel
-
 A(2|3)
-
 B(7|8)
-
-# [  
-\overrightarrow{AB}
-
-\begin{pmatrix}  
-5\  
-5  
-\end{pmatrix}  
-]
+### $\overrightarrow{AB} = \begin{pmatrix}7-2\\8-3\end{pmatrix} = \begin{pmatrix}5\\5\end{pmatrix}$
 
 ---
 
 # 2. Vektorlänge
 
 Die Länge eines Vektors berechnet sich mit dem Satz des Pythagoras.
-
-# [  
-\boxed{  
-|\vec v|
-
-\sqrt{x^2+y^2}  
-}  
-]
+### $\boxed{|\vec v| = \sqrt{x^2+y^2}}$
 
 ---
 
 ## Beispiel
 
-[  
-\vec v=  
-\begin{pmatrix}  
-3\  
-4  
-\end{pmatrix}  
-]
-
-# [  
-|\vec v|
-
-5  
-]
+### $\vec v=\begin{pmatrix}3\\4\end{pmatrix}$  
+### $|\vec v| = 5$
 
 Genau diese Aufgabe kommt in der Probeklausur vor.
 
@@ -2595,94 +2191,44 @@ Genau diese Aufgabe kommt in der Probeklausur vor.
 # 3. Skalarprodukt
 
 Definition
-
-# [  
-\boxed{  
-\vec a\cdot\vec b
-
-a_xb_x+a_yb_y  
-}  
-]
+### $\boxed{\vec a\cdot\vec b = a_xb_x+a_yb_y}$  
 
 ---
 
 ## Beispiel
+### $\begin{pmatrix}2\\3\end{pmatrix}\cdot\begin{pmatrix}4\\5\end{pmatrix}$
 
-# [  
-\begin{pmatrix}  
-2\  
-3  
-\end{pmatrix}  
-\cdot  
-\begin{pmatrix}  
-4\  
-5  
-\end{pmatrix}
-
-# 2\cdot4+3\cdot5
-
-23  
-]
+### $2\cdot4+3\cdot5 = 23$  
 
 ---
 
 # 4. Winkel zwischen zwei Vektoren
 
 Formel
-
-# [  
-\boxed{  
-\cos\alpha
-
-\frac{\vec a\cdot\vec b}  
-{|\vec a||\vec b|}  
-}  
-]
+### $\boxed{\cos\alpha\frac{\vec a\cdot\vec b}{|\vec a|\cdot|\vec b|}}$  
 
 ---
 
 ## Vorgehen
 
 1. Skalarprodukt berechnen
-    
 2. Beide Längen berechnen
-    
 3. In die Formel einsetzen
-    
 4. arccos berechnen
-    
 
 ---
 
 ## Beispiel
 
-[  
-\vec a=  
-\begin{pmatrix}  
-1\  
-0  
-\end{pmatrix}  
-]
+### $\vec a=\begin{pmatrix}1\\0\end{pmatrix}$
 
-[  
-\vec b=  
-\begin{pmatrix}  
-0\  
-1  
-\end{pmatrix}  
-]
+### $\vec b=\begin{pmatrix}0\\1\end{pmatrix}$  
 
-Skalarprodukt
-
-=
-
-0
+Skalarprodukt = 0
 
 ↓
 
-[  
-\alpha=90^\circ  
-]
+### $\alpha=90^\circ$
 
 ---
 
@@ -2691,32 +2237,15 @@ Skalarprodukt
 Zwei Vektoren stehen senkrecht aufeinander,
 
 wenn
-
-[  
-\boxed{  
-\vec a\cdot\vec b=0  
-}  
-]
+### $\boxed{\vec a\cdot\vec b=0}$
 
 ---
 
 ## Beispiel
 
-[  
-\begin{pmatrix}  
-2\  
-1  
-\end{pmatrix}  
-,  
-\begin{pmatrix}  
-1\  
--2  
-\end{pmatrix}  
-]
+### $\begin{pmatrix}2\\1\end{pmatrix},\begin{pmatrix}1\\-2\end{pmatrix}$  
 
-[  
-2\cdot1+1\cdot(-2)=0  
-]
+### $2\cdot1+1\cdot(-2)=0$
 
 ↓
 
@@ -2728,64 +2257,26 @@ orthogonal.
 
 Parameterform
 
-# [  
-\boxed{  
-\vec x
-
-\vec p  
-+t\vec r  
-}  
-]
+### $\boxed{\vec x\cdot\vec p+t\cdot\vec r}$
 
 ---
 
 Dabei
-
-[  
-\vec p  
-]
-
-=
-
-Stützvektor
-
-(Startpunkt)
+### $\vec p$ = Stützvektor (Startpunkt)
 
 ---
 
-[  
-\vec r  
-]
-
-=
-
-Richtungsvektor
+### $\vec r$ = Richtungsvektor
 
 ---
 
-t
-
-=
-
-Parameter.
+### $t$ = Parameter.
 
 ---
 
 ## Beispiel
 
-# [  
-\vec x
-
-\begin{pmatrix}  
-1\  
-2  
-\end{pmatrix}  
-+t  
-\begin{pmatrix}  
-3\  
--1  
-\end{pmatrix}  
-]
+### $\vec x \cdot \begin{pmatrix}1\\2\end{pmatrix}+t  \begin{pmatrix}3\\-1\end{pmatrix}$
 
 Genau diese Form wird in der Probeklausur verwendet.
 
@@ -2795,26 +2286,17 @@ Genau diese Form wird in der Probeklausur verwendet.
 
 Frage
 
-Liegt
-
-P
-
-auf der Geraden?
+Liegt $P$ auf der Geraden?
 
 ---
 
 ## Vorgehen
 
 1. Punkt einsetzen.
-    
 2. Zwei Gleichungen erhalten.
-    
 3. Ergibt sich dasselbe (t)?
-    
     - Ja → Punkt liegt auf der Geraden.
-        
     - Nein → Punkt liegt nicht auf der Geraden.
-        
 
 ---
 
@@ -2822,44 +2304,24 @@ auf der Geraden?
 
 Gerade
 
-# [  
-\vec x
+### $\vec x \cdot \begin{pmatrix}1\\2\end{pmatrix}+t\begin{pmatrix}3\\-1\end{pmatrix}$
 
-\begin{pmatrix}  
-1\  
-2  
-\end{pmatrix}  
-+t  
-\begin{pmatrix}  
-3\  
--1  
-\end{pmatrix}  
-]
-
-P(7|0)
+### $P(7|0)$
 
 ---
 
-x
+### x
 
-[  
-1+3t=7  
-]
-
+### $1+3t=7$
 ↓
-
-t=2
+### $t=2$
 
 ---
 
-y
+### y
 
-[  
-2-2=0  
-]
-
+### $2-2=0$
 ↓
-
 passt.
 
 ---
@@ -2890,13 +2352,7 @@ Es existiert genau eine Lösung.
 
 Formel
 
-# [  
-\boxed{  
-d
-
-\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}  
-}  
-]
+### $\boxed{d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}}$  
 
 ---
 
@@ -2904,13 +2360,7 @@ d
 
 Gegeben
 
-Punkt
-
-Q
-
-und Gerade
-
-g.
+Punkt $Q$ und Gerade $g$.
 
 ---
 
@@ -2921,19 +2371,12 @@ In der Probeklausur soll dieser Abstand berechnet werden.
 ### Verfahren (mit Lotfußpunkt)
 
 1. Gerade parametrisieren.
-    
 2. Senkrechte Bedingung aufstellen:  
-    [  
-    (\overrightarrow{SQ})\cdot\vec r=0  
-    ]  
+    $(\overrightarrow{SQ})\cdot\vec r=0$ 
     wobei (S) ein Punkt auf der Geraden ist.
-    
 3. Parameter (t) berechnen.
-    
 4. Lotfußpunkt bestimmen.
-    
 5. Abstand zwischen Lotfußpunkt und (Q) berechnen.
-    
 
 ---
 
@@ -2942,19 +2385,10 @@ In der Probeklausur soll dieser Abstand berechnet werden.
 Geraden sind parallel,
 
 wenn
-
-[  
-\boxed{  
-\vec r_1=\lambda\vec r_2  
-}  
-]
+### $\boxed{\vec r_1=\lambda\vec r_2}$
 
 für ein
-
-[  
-\lambda  
-]
-
+### $\lambda$
 existiert.
 
 ---
@@ -2964,9 +2398,7 @@ existiert.
 ## Aufgabe 1
 
 Vektorlänge
-
 ↓
-
 Pythagoras.
 
 ---
@@ -2974,9 +2406,7 @@ Pythagoras.
 ## Aufgabe 2
 
 Winkel
-
 ↓
-
 Skalarprodukt.
 
 ---
@@ -2984,9 +2414,7 @@ Skalarprodukt.
 ## Aufgabe 3
 
 Punktprobe
-
 ↓
-
 Parameter einsetzen.
 
 ---
@@ -2994,9 +2422,7 @@ Parameter einsetzen.
 ## Aufgabe 4
 
 Abstand
-
 ↓
-
 Lotfußpunkt bestimmen.
 
 ---
@@ -3006,50 +2432,31 @@ Lotfußpunkt bestimmen.
 ### ❌ Länge vergessen
 
 Immer
-
-[  
-\sqrt{x^2+y^2}  
-]
+### $\sqrt{x^2+y^2}$
 
 ---
 
 ### ❌ Falsches Skalarprodukt
 
 Nicht
-
-[  
-x+y  
-]
+### $x+y$
 
 sondern
-
-[  
-x_1x_2+y_1y_2  
-]
+### $x_1\cdot x_2+y_1\cdot y_2$
 
 ---
 
 ### ❌ Punktprobe
 
-Beide Koordinaten müssen
-
-denselben Parameter liefern.
+Beide Koordinaten müssen denselben Parameter liefern.
 
 ---
 
 ### ❌ Winkel
 
-Nicht den Kosinus
+Nicht den Kosinus als Endergebnis angeben.
 
-als Endergebnis angeben.
-
-Zum Schluss
-
-[  
-\arccos  
-]
-
-berechnen (wenn der Winkel gefragt ist).
+Zum Schluss $\arccos$ berechnen (wenn der Winkel gefragt ist).
 
 ---
 
@@ -3065,84 +2472,42 @@ Die Richtungsvektoren müssen echte Vielfache sein.
 
 ## Vektor
 
-# [  
-\boxed{  
-\overrightarrow{AB}
-
-\begin{pmatrix}  
-x_2-x_1\  
-y_2-y_1  
-\end{pmatrix}  
-}  
-]
+### $\boxed{\overrightarrow{AB} = \begin{pmatrix}x_2-x_1\\y_2-y_1\end{pmatrix}}$
 
 ---
 
 ## Länge
 
-# [  
-\boxed{  
-|\vec v|
-
-\sqrt{x^2+y^2}  
-}  
-]
+### $\boxed{|\vec v| = \sqrt{x^2+y^2}}$
 
 ---
 
 ## Skalarprodukt
 
-# [  
-\boxed{  
-\vec a\cdot\vec b
-
-a_xb_x+a_yb_y  
-}  
-]
+### $\boxed{\vec a\cdot\vec b = a_x \cdot b_x+a_y \cdot b_y}$
 
 ---
 
 ## Winkel
 
-# [  
-\boxed{  
-\cos\alpha
-
-\frac{\vec a\cdot\vec b}  
-{|\vec a||\vec b|}  
-}  
-]
+### $\boxed{\cos\alpha = \frac{\vec a\cdot\vec b}{|\vec a| \cdot|\vec b|}}$
 
 ---
 
 ## Orthogonal
 
-[  
-\boxed{  
-\vec a\cdot\vec b=0  
-}  
-]
+### $\boxed{\vec a\cdot\vec b=0}$
 
 ---
 
 ## Gerade
 
-# [  
-\boxed{  
-\vec x
-
-\vec p+t\vec r  
-}  
-]
+### $\boxed{\vec x \cdot \vec p+t \cdot \vec r}$
 
 ---
 
 ## Parallel
 
-[  
-\boxed{  
-\vec r_1=\lambda\vec r_2  
-}  
-]
+### $\boxed{\vec r_1=\lambda\vec r_2}$
 
 ---
