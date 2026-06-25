@@ -931,5 +931,3 @@ Wenn du diese Punkte sicher beherrschst, deckst du erfahrungsgemäß den Großte
 ✓ Lambda-Ausdrücke in normale Klassen umwandeln können  
 ✓ Funktionale Interfaces erkennen  
 ✓ einfache Stream-Pipelines lesen können
-
-Als Nächstes würde ich eine **realistische Probeklausur (ca. 90 Minuten, 100 Punkte)** erstellen, die genau auf diesen Folien basiert.
