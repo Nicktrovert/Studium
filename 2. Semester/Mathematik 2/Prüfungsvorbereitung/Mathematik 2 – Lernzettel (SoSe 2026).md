@@ -727,16 +727,16 @@ weil
 
 ## Teilbarkeitsregeln
 
-|Zahl|Regel|
-|---|---|
-|2|letzte Ziffer gerade|
-|3|Quersumme durch 3 teilbar|
-|4|letzte zwei Ziffern durch 4 teilbar|
-|5|Endziffer 0 oder 5|
-|6|durch 2 **und** 3 teilbar|
-|8|letzte drei Ziffern durch 8 teilbar|
-|9|Quersumme durch 9 teilbar|
-|10|Endziffer 0|
+| Zahl | Regel                               |
+| ---- | ----------------------------------- |
+| 2    | letzte Ziffer gerade                |
+| 3    | Quersumme durch 3 teilbar           |
+| 4    | letzte zwei Ziffern durch 4 teilbar |
+| 5    | Endziffer 0 oder 5                  |
+| 6    | durch 2 **und** 3 teilbar           |
+| 8    | letzte drei Ziffern durch 8 teilbar |
+| 9    | Quersumme durch 9 teilbar           |
+| 10   | Endziffer 0                         |
 
 Diese Regeln werden besonders bei ISBN-Aufgaben genutzt.
 
