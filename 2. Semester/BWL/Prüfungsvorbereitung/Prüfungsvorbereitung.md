@@ -1,1 +1,5 @@
 [[Prüfungsrelevante Themenübersicht]]
+[[BWL Lernzettel (Klausur 2026)]]
+[[PatrickPrüfung]]
+[[Probeklausue mit Musterlösungen]]
+[[Prüfungsrelevante Themenübersicht]]
