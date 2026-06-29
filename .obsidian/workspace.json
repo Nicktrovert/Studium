@@ -11,12 +11,14 @@
             "id": "8fbf8bd81846bd3a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2. Semester/Mathematik 2/Prüfungsvorbereitung/Pasted image 20260627091315.png"
+                "file": "2. Semester/Rechnernetze/Prüfungsvorbereitung/Lernzettel.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260627091315"
+              "icon": "lucide-file",
+              "title": "Lernzettel"
             }
           },
           {
@@ -193,15 +195,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "668ab12ea1001171",
+  "active": "8fbf8bd81846bd3a",
   "lastOpenFiles": [
+    "2. Semester/Rechnernetze/Prüfungsvorbereitung/Lernzettel.md",
+    "2. Semester/Rechnernetze/Prüfungsvorbereitung/Prüfungsvorbereitung.md",
+    "2. Semester/Mathematik 2/Prüfungsvorbereitung/Pasted image 20260627091315.png",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Pasted image 20260627091212.png",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Pasted image 20260627091101.png",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Pasted image 20260627091002.png",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/megaCoolAlgorithm.png",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Formelsammlung.md",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Mathematik 2 – Lernzettel (SoSe 2026).md",
-    "2. Semester/Rechnernetze/Prüfungsvorbereitung/Prüfungsvorbereitung.md",
     "2. Semester/Rechnernetze/Rechnernetze.md",
     "2. Semester/Rechnernetze/Prüfungsvorbereitung",
     "2. Semester/Programmieren 2/Prüfungsvorbereitung/Prüfungsvorbereitung.md",
@@ -211,7 +215,6 @@
     "2. Semester/BWL/Prüfungsvorbereitung/BWL Lernzettel (Klausur 2026).md",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Prüfungsvorbereitung.md",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Probeklausur.md",
-    "2. Semester/Mathematik 2/Prüfungsvorbereitung/Pasted image 20260627091315.png",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Übungen.md",
     "2. Semester/Programmieren 2/Prüfungsvorbereitung/Probeklausur.md",
     "2. Semester/Programmieren 2/Prüfungsvorbereitung/Programmieren 2 – Lernzettel (Java).md",
