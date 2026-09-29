@@ -48,19 +48,9 @@
               "icon": "lucide-file",
               "title": "Kombinatorik – Spickzettel"
             }
-          },
-          {
-            "id": "0daa4f50879823eb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -226,7 +216,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "0daa4f50879823eb",
+  "active": "4ef9b1cab9b1c125",
   "lastOpenFiles": [
     "Studium.md",
     "3. Semester/Mathematik 3/Übung/30.09/30.09.md",
