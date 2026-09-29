@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"2. Semester/BWL\"  ",
@@ -43,6 +43,27 @@
       }
     },
     {
+      "query": "path:\"3. Semester/Mathematik 3/Übung\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8035583
+      }
+    },
+    {
+      "query": "path:\"3. Semester/Mathematik 3\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 3032831
+      }
+    },
+    {
+      "query": "path:\"3. Semester\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
       "query": "path:\"2. Semester\"  ",
       "color": {
         "a": 1,
@@ -63,10 +84,10 @@
   "nodeSizeMultiplier": 0.7890625,
   "lineSizeMultiplier": 1.83541666666667,
   "collapse-forces": true,
-  "centerStrength": 0.270833333333333,
-  "repelStrength": 15.5208333333333,
+  "centerStrength": 0.321824038655124,
+  "repelStrength": 18.2073664040877,
   "linkStrength": 1,
-  "linkDistance": 294,
-  "scale": 0.40841203891759964,
+  "linkDistance": 500,
+  "scale": 0.2722746926117328,
   "close": true
 }

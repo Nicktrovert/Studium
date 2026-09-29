@@ -22,6 +22,34 @@
             }
           },
           {
+            "id": "80dcb94e3edcfa4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "4ef9b1cab9b1c125",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Semester/Mathematik 3/Übung/30.09/Kombinatorik – Spickzettel.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kombinatorik – Spickzettel"
+            }
+          },
+          {
             "id": "0daa4f50879823eb",
             "type": "leaf",
             "state": {
@@ -31,7 +59,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -51,7 +80,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -195,8 +226,20 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8fbf8bd81846bd3a",
+  "active": "0daa4f50879823eb",
   "lastOpenFiles": [
+    "Studium.md",
+    "3. Semester/Mathematik 3/Übung/30.09/30.09.md",
+    "3. Semester/Mathematik 3/Übung/30.09/Kombinatorik – Spickzettel.md",
+    "3. Semester/Mathematik 3/Übung/Übung.md",
+    "3. Semester/Mathematik 3/Mathematik 3.md",
+    "3. Semester/3. Semester.md",
+    "2. Semester/2. Semester.md",
+    "2. Semester/Mathematik 2/Prüfungsvorbereitung/Mathematik 2 – Lernzettel (SoSe 2026).md",
+    "3. Semester/Mathematik 3/Übung/30.09",
+    "3. Semester/Mathematik 3/Übung",
+    "3. Semester/Mathematik 3",
+    "3. Semester",
     "2. Semester/Rechnernetze/Prüfungsvorbereitung/Lernzettel.md",
     "2. Semester/Rechnernetze/Prüfungsvorbereitung/Prüfungsvorbereitung.md",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Pasted image 20260627091315.png",
@@ -205,7 +248,6 @@
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Pasted image 20260627091002.png",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/megaCoolAlgorithm.png",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung/Formelsammlung.md",
-    "2. Semester/Mathematik 2/Prüfungsvorbereitung/Mathematik 2 – Lernzettel (SoSe 2026).md",
     "2. Semester/Rechnernetze/Rechnernetze.md",
     "2. Semester/Rechnernetze/Prüfungsvorbereitung",
     "2. Semester/Programmieren 2/Prüfungsvorbereitung/Prüfungsvorbereitung.md",
@@ -223,26 +265,15 @@
     "2. Semester/Programmieren 2/Prüfungsvorbereitung",
     "2. Semester/BWL/Prüfungsvorbereitung/Probeklausue mit Musterlösungen.md",
     "2. Semester/BWL/Prüfungsvorbereitung/Prüfungsrelevante Themenübersicht.md",
-    "2. Semester/BWL/BWL.md",
-    "2. Semester/2. Semester.md",
-    "2. Semester/C-Cpp/C-Cpp.md",
     "2. Semester/BWL/Prüfungsvorbereitung",
-    "2. Semester/C-Cpp/Prüfungsvorbereitung/Endgegnerprüfung.md",
-    "2. Semester/C-Cpp/Prüfungsvorbereitung/Bitverschiebungen.md",
     "2. Semester/C-Cpp/Prüfungsvorbereitung",
-    "2. Semester/C-Cpp/Prüfungsvorbereitung/Prüfungsvorbereitung.md",
-    "2. Semester/Mathematik 2/Mathematik 2.md",
     "Untitled.canvas",
     "Untitled.base",
     "2. Semester/Mathematik 2/Prüfungsvorbereitung",
-    "2. Semester/Programmieren 2/Vorlesung",
-    "2. Semester/Programmieren 2/Klausur",
     "2. Semester/Mathematik 2/Vektoren/Pasted image 20260604001232.png",
     "2. Semester/Mathematik 2/Vektoren/Pasted image 20260604003601.png",
     "2. Semester/Mathematik 2/Vektoren/Pasted image 20260604002359.png",
     "2. Semester/Mathematik 2/Vektoren/Pasted image 20260604001755.png",
-    "Pasted image 20260604001058.png",
-    "2. Semester/BWL",
-    "2. Semester/Programmieren 2"
+    "Pasted image 20260604001058.png"
   ]
 }
